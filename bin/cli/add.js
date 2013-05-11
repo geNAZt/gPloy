@@ -58,6 +58,9 @@ module.exports = function() {
 
             if (running === false) {
                 console.log(" gPloy isnt running in the moment. Start it to deploy".yellow);
+            } else {
+                gPloy.killBackground();
+                gPloy.startInBackground();
             }
         });
     } else {
