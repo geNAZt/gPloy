@@ -1,0 +1,38 @@
+{
+    "name": "gPloy",
+    "preferGlobal": true,
+    "version": "1.0.0",
+    "description": "A continuous deployment server for automatic development",
+    "author": "Fabian Faßbender <fabian.fassbender42@googlemail.com>",
+
+    "bin": {
+        "gPloy": "./bin/gPloy.js"
+    },
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/geNAZt/gPloy.git"
+    },
+
+    "keywords": [
+        "cli",
+        "github",
+        "git",
+        "deployment",
+        "deploy",
+        "continuous",
+        "development",
+        "automatic"
+    ],
+
+    "dependencies": {
+        "colors": "0.6.x",
+        "router": "0.6.x",
+        "mkdirp": "0.3.x",
+        "is-running": "1.0.x"
+    },
+
+    "engines": {
+        "node": ">=0.1.90"
+    }
+}
