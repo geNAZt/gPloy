@@ -6,8 +6,8 @@ How to install it:
 `npm install gPloy -g`
 
 How to use it:
-* Start the gPloy Server: gPloy start (it will bind to port 10010)
-* Navigate to your project workdir (git repo): gPloy add project-name
+* Start the gPloy Server: gploy start (it will bind to port 10010)
+* Navigate to your project workdir (git repo): gploy add project-name
 * Create a Git Webhook with the url printed
 * Done :D
 
