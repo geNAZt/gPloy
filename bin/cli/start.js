@@ -12,10 +12,10 @@ module.exports = function() {
         if (running === false) {
             gPloy.setup();
 
-            console.log(" gPloy isnt running in the moment".green);
+            console.log(" gploy isnt running in the moment".green);
             gPloy.startInBackground();
         } else {
-            console.log(" gPloy is running in the moment".yellow);
+            console.log(" gploy is running in the moment".yellow);
         }
     });
 }

@@ -12,7 +12,7 @@ module.exports = function() {
         if (running === true) {
             gPloy.killBackground();
 
-            console.log(" gPloy stopped".green);
+            console.log(" gploy stopped".green);
         }
     });
 }

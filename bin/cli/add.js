@@ -57,7 +57,7 @@ module.exports = function() {
             }
 
             if (running === false) {
-                console.log(" gPloy isnt running in the moment. Start it to deploy".yellow);
+                console.log(" gploy isnt running in the moment. Start it to deploy".yellow);
             } else {
                 gPloy.killBackground();
                 gPloy.startInBackground();
@@ -65,6 +65,6 @@ module.exports = function() {
         });
     } else {
         console.log(' Project Name Required:'.red);
-        console.log('  eg: gPloy add project-name');
+        console.log('  eg: gploy add project-name');
     }
 }

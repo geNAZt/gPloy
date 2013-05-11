@@ -12,13 +12,13 @@ module.exports = function() {
         if (running === false) {
             gPloy.setup();
 
-            console.log(" gPloy isnt running in the moment".green);
+            console.log(" gploy isnt running in the moment".green);
             gPloy.startInBackground();
         } else {
             gPloy.killBackground();
             gPloy.startInBackground();
 
-            console.log(" gPloy restarted".green);
+            console.log(" gploy restarted".green);
         }
     });
 }
