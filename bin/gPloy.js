@@ -7,7 +7,7 @@ var fs = require('fs');
 
 require('colors');
 
-console.log('Welcome to gPloy v1.0.0 - Continious Deployment Server'.bold.magenta);
+console.log('Welcome to gPloy v1.0.1 - Continious Deployment Server'.bold.magenta);
 
 global.userHome         = process.env.APPDATA || process.env.HOME;
 global.user             = process.env.USERNAME || process.getuid();
