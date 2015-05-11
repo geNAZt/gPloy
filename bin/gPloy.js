@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/local/bin/node
 
 global.debug = process.env.DEBUG === 'true';
 
