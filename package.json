@@ -1,7 +1,7 @@
 {
     "name": "gploy",
     "preferGlobal": true,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A continuous deployment server for automatic development",
     "author": "Fabian Faßbender <fabian.fassbender42@googlemail.com>",
 
