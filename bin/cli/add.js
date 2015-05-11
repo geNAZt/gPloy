@@ -1,5 +1,6 @@
 var fs = require('fs');
 var gPloy = require(gPloyLibs + "/gPloy");
+var path = require('path');
 
 module.exports = function() {
     var name = process.argv[3];
